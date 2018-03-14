@@ -15,7 +15,7 @@ Some algorithms have been proposed, for example, using PCA to reduce the dimensi
 
 ## Contribution 
 1. Proposed approach **iterative quantization (ITQ)** outperforms the methods of [[2]](https://papers.nips.cc/paper/3749-locality-sensitive-binary-codes-from-shift-invariant-kernels), [[3]](http://www.ee.columbia.edu/ln/dvmm/publications/12/PAMI_SSHASH.pdf), [[4]](https://papers.nips.cc/paper/3383-spectral-hashing)
-2. The method, **ITQ**, can be coupled with any projection on an orthogonal basis.
+2. The method, **ITQ**, can be coupled with any projection on an orthogonal basis (i.e., based on canonical correlation analysis).
 
 ## Proposed method
 The proposed method consists of two step:
