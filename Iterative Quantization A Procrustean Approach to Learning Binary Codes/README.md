@@ -54,3 +54,9 @@ From the above experiment results, ITQ demonstrates its distinction on unsupervi
 
 Some retrieved results are shown below:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/e2.png">
+
+## Reference
+[1] Iterative Quantization: A Procrustean Approach to Learning Binary Codes. *Yunchao Gong and Svetlana Lazebnik*<br>
+[2] Locality sensitive binary codes from shift-invariant kernels. *M. Raginsky and S. Lazebnik.*<br>
+[3] Semi-supervised hashing for large-scale image retrieval. *J. Wang, S. Kumar, and S.-F. Chang.*<br>
+[4] Spectral hashing. *Y. Weiss, A. Torralba, and R. Fergus.*
