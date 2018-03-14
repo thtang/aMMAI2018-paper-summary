@@ -19,7 +19,8 @@ Some algorithms have been proposed, for example, using PCA to reduce the dimensi
 
 ## Proposed method
 The proposed method consists of two step:
-**1. Apply linear dimensionality reduction to the data (PCA here). The objective function are shown below:**
+**1. Apply linear dimensionality reduction to the data (PCA here)** <br>
+The objective function are shown below:
 
 *   original objective function:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/ob1.png" width="320">
@@ -35,6 +36,10 @@ Minimize the quantization loss:
 
 Initial *R* and adopt a *k*-means-like iterative quantization procedure to find a local minimum of the loss above.<br>
 Iterative process:
-1. Fix *R* and update *B*
-The objective shown just above could be expressed as:
+1. Fix *R* and update *B* <br>
+The objective shown just above could be expressed as:<br>
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/ob4.png" width="320">
+
+2. Fix *B* and update *R*
+
+Compute the SVD of c x c matrix \(B^{T}V\)
