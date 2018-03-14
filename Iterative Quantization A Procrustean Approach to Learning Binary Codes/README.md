@@ -43,3 +43,6 @@ The objective shown just above could be expressed as:<br>
 2. Fix *B* and update *R*
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/mo5.png" width="420">
 
+## Performance evaluation and Experiment
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/e1.png" width="420">
+
