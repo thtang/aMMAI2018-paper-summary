@@ -19,6 +19,7 @@ Some algorithms have been proposed, for example, using PCA to reduce the dimensi
 
 ## Proposed method
 The proposed method consists of two step:
+
 **1. Apply linear dimensionality reduction to the data (PCA here)** <br>
 The objective function are shown below:
 
