@@ -28,11 +28,12 @@ The proposed method consists of two step:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/ob2.png" width="320">
 
 **2. Use ITQ as a nethod of Binary Quantization:**
+
 Minimize the quantization loss:
-<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/ob3.png" width="320">
 
-Initial *R* and adopt a *k*-means-like iterative quantization procedure to find a local minimum of the loss above.
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/ob3.png" width="200">
 
+Initial *R* and adopt a *k*-means-like iterative quantization procedure to find a local minimum of the loss above.<br>
 Iterative process:
 1. Fix *R* and update *B*
 The objective shown just above could be expressed as:
