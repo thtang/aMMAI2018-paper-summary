@@ -29,7 +29,7 @@ The objective function are shown below:
 *   adaptive objective function:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/ob2.png" width="320">
 
-**2. Use ITQ as a nethod of Binary Quantization:**
+**2. Use ITQ as a method of Binary Quantization:**
 
 Minimize the quantization loss:
 
@@ -44,6 +44,8 @@ The objective shown just above could be expressed as:<br>
 2. Fix *B* and update *R*
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/mo5.png" width="420">
 
+The approach basically could be illustrated by following picture:
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/f1.png">
 ## Performance evaluation and Experiment
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/e1.png">
 From the above experiment results, ITQ demonstrates its distinction on unsupervised task.
