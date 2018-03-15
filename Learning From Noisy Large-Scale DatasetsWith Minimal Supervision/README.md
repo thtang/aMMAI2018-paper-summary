@@ -31,3 +31,7 @@ Since the author states that the structure in the label space could be implicitl
 
 # Performance evaluation
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20From%20Noisy%20Large-Scale%20DatasetsWith%20Minimal%20Supervision/image/f6.png" >
+
+# Reference
+[1] Learning From Noisy Large-Scale DatasetsWith Minimal Supervision<br>
+[2] Openimages: A public dataset for large-scale multi-label and multi-class image classification.
