@@ -1,5 +1,5 @@
 # Week1 summarization
-Iterative Quantization: A Procrustean Approach to Learning Binary Codes[[1]](http://www.cs.unc.edu/~lazebnik/publications/cvpr11_small_code.pdf) <br>
+### Iterative Quantization: A Procrustean Approach to Learning Binary Codes[[1]](http://www.cs.unc.edu/~lazebnik/publications/cvpr11_small_code.pdf) <br>
 *Yunchao Gong and S. Lazebnik. CVPR 2011*
 
 ## Goal 
