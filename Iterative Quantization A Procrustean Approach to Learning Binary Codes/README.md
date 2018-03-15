@@ -29,7 +29,7 @@ The objective function are shown below:
 *   adaptive objective function:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes/image/ob2.png" width="320">
 
-**2. Use ITQ as a method of Binary Quantization:**
+**2. Use ITQ as a method of Binary Quantization:** (Novelties Part!)
 
 Minimize the quantization loss:
 
