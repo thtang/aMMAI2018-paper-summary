@@ -22,9 +22,12 @@ Since the author states that the structure in the label space could be implicitl
 
 **The network consists of two sub-module:**
 1. The label cleaning network: Given noise label and visual feature, output cleaned label. The cost function here is <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20From%20Noisy%20Large-Scale%20DatasetsWith%20Minimal%20Supervision/image/ob1.png" width="220">, which aims to minize the L1 distance of cleaned and rated label encoding.
-2. The multi-label classifier: Given cleaned label and visual feature, output predicted label. The cost function here is <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20From%20Noisy%20Large-Scale%20DatasetsWith%20Minimal%20Supervision/image/ob2.png" width="400">
+2. The multi-label classifier: Given cleaned label and visual feature, output predicted label. The cost function here is <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20From%20Noisy%20Large-Scale%20DatasetsWith%20Minimal%20Supervision/image/ob2.png" width="400">, which is cross-entropy basically.
 
 *For some notations, please refer to the original paper.*
 
 **Overview of the model is shown below:**
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20From%20Noisy%20Large-Scale%20DatasetsWith%20Minimal%20Supervision/image/f2_.png" >
+
+# Performance evaluation
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20From%20Noisy%20Large-Scale%20DatasetsWith%20Minimal%20Supervision/image/f6.png" >
