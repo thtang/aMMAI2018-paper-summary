@@ -8,6 +8,11 @@ Train a **multi-label image classifier** using a large dataset with relatively *
 ## Novelties
 Instead of fine-tuning on pre-trained model (The author argues that the performance is not good enough), the proposed approach trains a network from scratch using noisy labels and then facilitates a small set of clean labels to fine-tune the network.
 ## Contribution
-1. Introduce a multi-task framework for multilabel image classification that facilitates small sets of clean annotations in conjunction with massive sets of noisy annotations.
-2. Provide a first benchmark on the recently released Open Images Dataset[[2]](https://github.com/openimages/dataset).
-3. The proposed learning approach is more effective in leveraging small labeled data than traditional fine-tuning.
+1. Introduce a multi-task framework for multilabel image classification that facilitates small sets of **clean** annotations in conjunction with **massive sets of noisy annotations**.
+2. Provide a first **benchmark** on the recently released **Open Images Dataset**[[2]](https://github.com/openimages/dataset).
+3. The proposed learning approach is more effective in **leveraging small labeled data** than traditional fine-tuning.
+
+## Promising applications
+Since the author states that the structure in the label space could be implicitly learned by the method, I think delving in the structure might be insteresting. For example, by looking up the connection of each term in labels, we probably can generate high-level semantic concept from image.
+
+## Technical summarizes
