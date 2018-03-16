@@ -21,11 +21,12 @@ The idea could be summzrized as following figure:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/t1.png"><br>
 
 1. **Synthetic Generation of LowLevel Cues:** Download models from *3D Warehouse* then adjust viewpoints, object/background color and texture. Several examples are shown on the first row of above figure.
-2. **Deep Convolutional Neural Network Features:** Apply AlexNet[[2]] and RCNN[[3]](https://arxiv.org/abs/1311.2524) for feature extraction and object detection. 
-AlexNet:
-<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/alexnet.png">
-RCNN:
-<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/rcnn.png">
+2. **Deep Convolutional Neural Network Features:** Apply AlexNet[[2]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) and RCNN[[3]](https://arxiv.org/abs/1311.2524) for feature extraction and object detection. <br>
+
+**AlexNet:**<br>
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/alexnet.png" width="520"><br>
+**RCNN:**<br>
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/rcnn.png" width="520"><br>
 3. **Analysing Cue Invariance of DCNN Features:** Create two synthetic training sets one with and one without a particular cue. Compare the model performance trained on two different set. Some results are shown in Table2 below:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/t2.png">
 
@@ -34,6 +35,6 @@ RCNN:
 * Training on synthetic images with simulated cues lead to similar performance as training on synthetic images without these cues.
 * For novel categories, adding synthetic variance along these dimensions and fine-tuning the layers proved useful.
 ## Referene
-[1]Learning Deep Object Detectors from 3D Models
-[2]ImageNet Classification with Deep Convolutional Neural Networks
-[3]
+[1] Learning Deep Object Detectors from 3D Models
+[2] ImageNet Classification with Deep Convolutional Neural Networks
+[3] Rich feature hierarchies for accurate object detection and semantic segmentation
