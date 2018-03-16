@@ -13,3 +13,8 @@ The idea could be summzrized as following figure:
 1. To analyze how missing low-level cues of synthetic data affects object detection performance.
 2. Shows the improved performance by using DCNN on PASCAL VOC2007 dataset.
 3. Present the largest-scale evaluation of synthetic CAD training of object detectors to date.
+## Technical summarizes
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/t1.png">
+1. Synthetic Generation of LowLevel Cues
+2. Deep Convolutional Neural Network Features
+3. Analysing Cue Invariance of DCNN Features
