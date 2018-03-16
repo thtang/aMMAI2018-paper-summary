@@ -22,7 +22,6 @@ The idea could be summzrized as following figure:
 
 1. **Synthetic Generation of LowLevel Cues:** Download models from *3D Warehouse* then adjust viewpoints, object/background color and texture. Several examples are shown on the first row of above figure.
 2. **Deep Convolutional Neural Network Features:** Apply AlexNet[[2]](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) and RCNN[[3]](https://arxiv.org/abs/1311.2524) for feature extraction and object detection. <br>
-
 **AlexNet:**<br>
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/alexnet.png" width="520"><br>
 **RCNN:**<br>
