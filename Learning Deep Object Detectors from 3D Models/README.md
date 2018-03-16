@@ -30,7 +30,7 @@ The idea could be summzrized as following figure:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models/image/t2.png">
 
 ## Conclusion
-* DCNNs learn a significant amount of invariance to texture, color and pose, and less invariance to 3D shape.
+* DCNNs learn a significant amount of **invariance to texture, color and pose**, and **less invariance to 3D shape.**
 * Training on synthetic images with simulated cues lead to similar performance as training on synthetic images without these cues.
 * For novel categories, adding synthetic variance along these dimensions and fine-tuning the layers proved useful.
 ## Referene
