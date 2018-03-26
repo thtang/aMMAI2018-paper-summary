@@ -1,5 +1,5 @@
 # aMMAI2018-paper-summary
-### Paper summary of Most read paper in National Taiwan University aMMAI course 
+### Paper summary of Most read paper in ADVANCED TOPICS IN MULTIMEDIA ANALYSIS AND INDEXING course in National Taiwan University
 *Week1:* 
 * [Iterative Quantization: A Procrustean Approach to Learning Binary Codes,  *Yunchao Gong and S. Lazebnik,  CVPR 2011.*](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Iterative%20Quantization%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes)
 
