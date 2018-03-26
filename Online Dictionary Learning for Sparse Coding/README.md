@@ -21,4 +21,8 @@ Learn dictionary (the basis set) based on proposed new online optimization algor
 
 ## Contribution
 Contrary to classical first-order stochastic gradient descent, the dictionary learning method does not require explicit learning rate tuning and minimizes a sequentially quadratic local approximations of the expected cost.
->>>>>>> 9815c47c37e8583d8e4552a9748c1cc651d9a171
+
+## Technical summarizes
+*The algorithm :<br>*
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Online%20Dictionary%20Learning%20for%20Sparse%20Coding/a1.png" width="320">
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Online%20Dictionary%20Learning%20for%20Sparse%20Coding/a2.png" width="320">
