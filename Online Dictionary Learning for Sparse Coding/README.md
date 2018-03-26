@@ -27,3 +27,10 @@ Contrary to classical first-order stochastic gradient descent, the dictionary le
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Online%20Dictionary%20Learning%20for%20Sparse%20Coding/a1.png" width="320">
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Online%20Dictionary%20Learning%20for%20Sparse%20Coding/a2.png" width="320"><br>
 The sparse coding problem with fixed dictionary is an **l1-regularized linear least-squares** problem. From the above algorithm, we can find out that **LARS-Lasso algorithm** is used to solve it. For parameter-free property of the above algorithm, **block-coordinate descent** with warm restarts is used.
+## Experiment and result
+**Compares proposed method with stochastic gradient descent**
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Online%20Dictionary%20Learning%20for%20Sparse%20Coding/f1.png" >
+The above figure shows the advantage of a proposed method, but stochastic gradient descent somehow performs competitively.
+
+The paper also demonstrates that the proposed method can indeed be applied to a realistic image processing task on large image, e.g., **Impainting**. Remove the text from the damaged 12-Megapixel image as shown in figure below.
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Online%20Dictionary%20Learning%20for%20Sparse%20Coding/f2.png" width="380">
