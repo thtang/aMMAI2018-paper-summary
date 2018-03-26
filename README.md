@@ -6,3 +6,7 @@
 *Week2:* 
 * [Learning From Noisy Large-Scale DatasetsWith Minimal Supervision, *Veit at al., CVPR 2017.*](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Learning%20From%20Noisy%20Large-Scale%20DatasetsWith%20Minimal%20Supervision) 
 * [Learning Deep Object Detectors from 3D Models, *Peng et al., ICCV 2016*](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Learning%20Deep%20Object%20Detectors%20from%203D%20Models)
+
+*Week3:* 
+* [Online Dictionary Learning for Sparse Coding
+, *Mairal et al., ICML 2009*](https://www.di.ens.fr/~fbach/mairal_icml09.pdf)
