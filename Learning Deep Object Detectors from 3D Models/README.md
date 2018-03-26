@@ -34,6 +34,6 @@ The idea could be summzrized as following figure:
 * Training on synthetic images with simulated cues lead to similar performance as training on synthetic images without these cues.
 * For novel categories, adding synthetic variance along these dimensions and fine-tuning the layers proved useful.
 ## Referene
-[1] Learning Deep Object Detectors from 3D Models
-[2] ImageNet Classification with Deep Convolutional Neural Networks
-[3] Rich feature hierarchies for accurate object detection and semantic segmentation
+[1] Learning Deep Object Detectors from 3D Models<br>
+[2] ImageNet Classification with Deep Convolutional Neural Networks<br>
+[3] Rich feature hierarchies for accurate object detection and semantic segmentation<br>
