@@ -20,4 +20,4 @@ The figure below illustrates the proposed architecture:
 1. Input SIFT decriptor, maximize the posterior distribution of class labels
 2. Pre-train the neural network: by learning RBMs with the same structure in an unsupervised manner.
 3. Pre-train the hierarchical topic Model: use the output of pre-trained NN as input to the HTM. The training is performed by Gibbs sampling as shown in below: <br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f2.png" width=340>
-4. Joint optimization by gradient descent
+4. Joint optimization by gradient descent: Gradient descent is applied to update the parameters. The loss function can be expressed as follows:<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f3.png" width=340>
