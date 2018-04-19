@@ -13,3 +13,11 @@ Probabilistic graphical models and neural networks are the two prevalent types o
 3. Demonstrate the model on computer vision setting, scene classification.
 
 ## Technical summarizes
+The figure below illustrates the proposed architecture:
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f1.png" width=760>
+
+#### Model Learning
+1. Input SIFT decriptor, maximize the posterior distribution of class labels
+2. Pre-train the neural network: by learning RBMs with the same structure in an unsupervised manner.
+3. Pre-train the hierarchical topic Model: use the output of pre-trained NN as input to the HTM. The training is performed by Gibbs sampling as shown in below:
+4. Joint optimization by gradient descent
