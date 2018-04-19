@@ -26,6 +26,7 @@ The figure below illustrates the proposed architecture:
 ## Experiments
 
 ### Visualization
-<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f4.png" >
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f4.png">
+
 ### Classification
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f5.png" >
