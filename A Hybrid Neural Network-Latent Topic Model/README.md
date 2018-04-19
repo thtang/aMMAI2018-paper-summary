@@ -17,7 +17,15 @@ The figure below illustrates the proposed architecture:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f1.png" width=760>
 
 #### Model Learning
-1. Input SIFT decriptor, maximize the posterior distribution of class labels
-2. Pre-train the neural network: by learning RBMs with the same structure in an unsupervised manner.
-3. Pre-train the hierarchical topic Model: use the output of pre-trained NN as input to the HTM. The training is performed by Gibbs sampling as shown in below: <br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f2.png" width=340>
-4. Joint optimization by gradient descent: Gradient descent is applied to update the parameters. The loss function can be expressed as follows:<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f3.png" width=340>
+1. Input **SIFT** decriptor, maximize the posterior distribution of class labels
+2. Pre-train the neural network: by learning **RBMs** with the same structure in an unsupervised manner.
+3. Pre-train the hierarchical topic Model: use the output of pre-trained NN as input to the HTM. The training is performed by **Gibbs sampling** as shown in below: <br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f2.png" width=340>
+4. Joint optimization by gradient descent: **Gradient descent** is applied to update the parameters. The loss function can be expressed as follows:<br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f3.png" width=340>
+5. Inference of the hybrid model: feed-forward
+
+## Experiments
+
+### Visualization
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f4.png" >
+### Classification
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model/f5.png" >
