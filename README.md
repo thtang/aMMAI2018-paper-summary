@@ -13,3 +13,5 @@ course web site: https://winstonhsu.info/ammai-18s/
 , *Mairal et al., ICML 2009* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Online%20Dictionary%20Learning%20for%20Sparse%20Coding)
 
 * [A Hybrid Neural Network-Latent Topic Model](https://cs.nyu.edu/~wanli/wan-zhu-fergus12.pdf), *Li Wan et al., JMLR 2012* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model)
+
+* [Semi-supervised face image retrieval using sparse coding with identity constraint.](http://cmlab.csie.ntu.edu.tw/~sirius42/papers/mm11.pdf), *B.-C. Chen, Y.-H. Kuo, Y.-Y. Chen, K.-Y. Chu, and W. Hsu. , ACM MM 2011*
