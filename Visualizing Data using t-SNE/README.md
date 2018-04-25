@@ -32,7 +32,8 @@ t-SNE|Sammon mapping|Isomap|LLE
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v1.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v2.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v3.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v4.png)
 
-Visualizations of the COIL-20 data set
+**Visualizations of the COIL-20 data set**
+
 t-SNE|Sammon mapping|Isomap|LLE
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v5.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v6.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v7.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v8.png)
