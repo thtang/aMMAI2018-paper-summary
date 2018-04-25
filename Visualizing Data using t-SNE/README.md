@@ -17,3 +17,7 @@
 
 
 4. If the map points **y***i* and **y***j* correctly model the similarity between the high-dimensional datapoints **x***i* and **x***j*, the conditional probabilities **p***j*|*i* and **q***j*|*i* shold be equal. Therefore, SNE minimizes the sum of **KL divergences** over all datapoints using a gradient descent method.<br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f3.png" width="220"><br>Gradient computing:<br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f4.png" width="260">
+
+#### t-Distributed Stochastic Neighbor Embedding
+1. Modify the cost function to <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f7.png" width="260"> and that makes the similarity matrix to be symmetric.
+2. The probability function to model the similarity in low or high dimension (with constraint to deal with outlier **x***i*) are shown below: <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f8.png" width="220"><br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f9.png" width="220">
