@@ -11,4 +11,6 @@
 
 ## Technical summarizes
 #### Stochastic Neighbor Embedding
-1. Converting the high-dimensional Euclidean distances between datapoints into conditional probabilities that represent similarities. 
+1. Converting the high-dimensional Euclidean distances between datapoints into conditional probabilities that represent similarities. The similarity of datapoint **x***j* to datapoint **x***i* is the conditional probability:<br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f1.png" width="220">
+2. For the low-dimensional counterparts **y***i* and **y***j* of the high-dimensional datapoints **x***i* and **x***j*, model their similarity by <br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f2.png" width="220">
+3. If the map points **y***i* and **y***j* correctly model the similarity between the high-dimensional datapoints **x***i* and **x***j*, the conditional probabilities p jji and qjji shold be equal. Therefore, SNE minimizes the sum of **KL divergences** over all datapoints using a gradient descent method.<br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f3.png" width="220">
