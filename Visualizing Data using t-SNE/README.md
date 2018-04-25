@@ -37,3 +37,6 @@ t-SNE|Sammon mapping|Isomap|LLE
 t-SNE|Sammon mapping|Isomap|LLE
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/image/v5.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/image/v6.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/image/v7.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/image/v8.png)
+## Reference
+[1] Visualizing Data using t-SNE <br>
+[2] [t-SNE完整笔记](http://www.datakit.cn/blog/2017/02/05/t_sne_full.html)
