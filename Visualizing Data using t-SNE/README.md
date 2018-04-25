@@ -21,6 +21,13 @@
 #### t-Distributed Stochastic Neighbor Embedding
 1. Modify the cost function to <br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f7.png" width="260"> <br>and that makes the similarity matrix to be symmetric.
 2. The probability function to model the similarity in low or high dimension (with constraint to deal with outlier **x***i*) are shown below: <br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f8.png" width="220"><br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f9.png" width="220">
-3. Optimize the cost function by gradient descent. <br>Gradient coomputing: <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f10.png" width="220">
-4. Since **crowding problem** exists in symmetric SNE, t-SNE use **Student t-distribution** with one degree of freedom, which has much heavier tails than a Gaussian to convert distances into probabilities, in low-dimensional map. The joint probabilities **q***ij* are defined as <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f11.png" width="220">
-5. The gradient become<br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f12.png" width="220">
+3. Optimize the cost function by gradient descent. <br>Gradient coomputing: <br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f10.png" width="220">
+4. Since **crowding problem** exists in symmetric SNE, t-SNE use **Student t-distribution** with one degree of freedom, which has much heavier tails than a Gaussian to convert distances into probabilities, in low-dimensional map. The joint probabilities **q***ij* are defined as <br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f11.png" width="220">
+5. The gradient becomes<br><img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/f12.png" width="260">
+
+## Experiments
+#### Visualizations of 6,000 handwritten digits from the MNIST data set
+
+t-SNE|Sammon mapping|Isomap|LLE
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v1.png)|https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v2.png|https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v3.png|https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/v4.png
