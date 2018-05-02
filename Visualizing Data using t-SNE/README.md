@@ -1,6 +1,8 @@
 # Week7 summarization
 ### Visualizing Data using t-SNE [[1]](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
 *Laurens van der Maaten, Geoffrey Hinton; JMLR, 2008.*
+## Goal
+Use non-linear dimension reduction technique to map data from high dimension to low dimension.
 
 ## Background
 1. Visualization of high-dimensional data is an important problem in many different domains
@@ -37,6 +39,10 @@ t-SNE|Sammon mapping|Isomap|LLE
 t-SNE|Sammon mapping|Isomap|LLE
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/image/v5.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/image/v6.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/image/v7.png)|![](https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Visualizing%20Data%20using%20t-SNE/image/v8.png)
+
+### Potential drawback
+Unlike PCA leaning eigenvector for futher projection uses, t-SNE could only project exist data. If new data points come in, we have to re-train the model.
+
 ## Reference
 [1] Visualizing Data using t-SNE <br>
 [2] [t-SNE完整笔记](http://www.datakit.cn/blog/2017/02/05/t_sne_full.html)
