@@ -17,13 +17,20 @@ Use an end-to-end trainable model for 3D object detection and discard the needs 
 
 ## Techincal summaries
 #### VoxelNet architecture:
+
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f1.png">
 
-#### Voxel feature encoding layer:
-<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f2.png" width="520">
+The overview of the prposed model is shown above. Basically, it's consist of three module, i.e., Voxel feature encoding layer, Convolutional middle layers and Region proposal network:
 
-#### modified RPN:
-<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f3.png" width="720">
+* Voxel feature encoding layer:<br>
+VFE layers combine combine point-wise features with a locally aggregated feature. Stacking multiple VFE layers allows learning complex features for characterizing local 3D shape information.<br>
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f2.png" width="520"><br>
 
-#### Loss function:
+
+
+* modified RPN:
+
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f3.png" width="720"><br>
+
+* Loss function:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f4.png" width="420">
