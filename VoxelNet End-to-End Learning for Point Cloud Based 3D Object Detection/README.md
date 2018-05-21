@@ -27,10 +27,15 @@ VFE layers combine combine point-wise features with a locally aggregated feature
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f2.png" width="520"><br>
 
 
-* Convolutional middle layers:
+* Convolutional middle layers:<br>
+The convolutional middle layers aggregate voxel-wise features within a progressively expanding receptive field, adding more context to the shape description. Conv3D layers are used.
 
 * modified RPN:<br>
+The RPN is fed with feature maps from convolutional middle layers and the learning targets are (1) a probability score map and (2) a
+regression map. THe architecture is shown below:<br>
+
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f3.png" width="720"><br>
 
 #### Loss function:
-<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f4.png" width="420">
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f4.png" width="420"><br>
+*L*cls stands for binary cross entropy loss and *L*reg is the regression loss with SmoothL1 function.
