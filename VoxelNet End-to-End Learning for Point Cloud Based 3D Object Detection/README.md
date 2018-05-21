@@ -19,5 +19,11 @@ Use an end-to-end trainable model for 3D object detection and discard the needs 
 #### VoxelNet architecture:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f1.png">
 
-#### Voxel feature encoding layer
-<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f2.png" width="320">
+#### Voxel feature encoding layer:
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f2.png" width="520">
+
+#### modified RPN:
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f3.png" width="720">
+
+#### Loss function:
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f4.png" width="420">
