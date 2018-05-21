@@ -3,7 +3,7 @@
 
 ## Goal
 Use an end-to-end trainable model for 3D object detection and discard the needs for hand-crafted feature.
-
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f0.png" width="420">
 ## Background
 1. Point cloud based 3D object detection is an important component of a variety of real-world applications, such as autonomous navigation, housekeeping robots, and augmented/virtual reality.
 2. Point clouds are sparse and many approaches manually crafted feature representation for it.
