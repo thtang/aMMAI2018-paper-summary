@@ -27,10 +27,10 @@ VFE layers combine combine point-wise features with a locally aggregated feature
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f2.png" width="520"><br>
 
 
+* Convolutional middle layers:
 
-* modified RPN:
-
+* modified RPN:<br>
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f3.png" width="720"><br>
 
-* Loss function:
+#### Loss function:
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection/images/f4.png" width="420">
