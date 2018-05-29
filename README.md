@@ -17,3 +17,5 @@ course web site: https://winstonhsu.info/ammai-18s/
 * [Semi-supervised face image retrieval using sparse coding with identity constraint](http://cmlab.csie.ntu.edu.tw/~sirius42/papers/mm11.pdf), *B.-C. Chen, Y.-H. Kuo, Y.-Y. Chen, K.-Y. Chu, and W. Hsu. , ACM MM 2011*
 
 * [Visualizing Data using t-SNE](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf), *Maaten et al., JMLR 2008* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Visualizing%20Data%20using%20t-SNE)
+
+* [VoxelNet End-to-End Learning for Point Cloud Based 3D Object Detection](https://arxiv.org/pdf/1711.06396), *Zhou et al., arXiv 2017* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection)
