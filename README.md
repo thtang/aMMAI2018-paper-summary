@@ -15,3 +15,5 @@ course web site: https://winstonhsu.info/ammai-18s/
 * [A Hybrid Neural Network-Latent Topic Model](https://cs.nyu.edu/~wanli/wan-zhu-fergus12.pdf), *Li Wan et al., JMLR 2012* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/A%20Hybrid%20Neural%20Network-Latent%20Topic%20Model)
 
 * [Semi-supervised face image retrieval using sparse coding with identity constraint](http://cmlab.csie.ntu.edu.tw/~sirius42/papers/mm11.pdf), *B.-C. Chen, Y.-H. Kuo, Y.-Y. Chen, K.-Y. Chu, and W. Hsu. , ACM MM 2011*
+
+* [Visualizing Data using t-SNE](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf), *Maaten et al., JMLR 2008* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Visualizing%20Data%20using%20t-SNE)
