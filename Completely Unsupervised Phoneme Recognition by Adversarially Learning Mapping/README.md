@@ -31,3 +31,7 @@ Learn a dictionary using K-means to encode audio embeddings received from the ab
 ## Experiments
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Completely%20Unsupervised%20Phoneme%20Recognition%20by%20Adversarially%20Learning%20Mapping/images/f3.png" width="520">
 The proposed unsupervised framework can achieve roughly comparable performance on supervised learning with 0.1% of training data.
+
+## Reference
+[1] Completely Unsupervised Phoneme Recognition by Adversarially Learning Mapping Relationships from Audio Embeddings
+[2] Segmental audio word2vec:Representing utterances as sequences of vectors with applications in spoken term detection
