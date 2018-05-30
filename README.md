@@ -19,3 +19,5 @@ course web site: https://winstonhsu.info/ammai-18s/
 * [Visualizing Data using t-SNE](http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf), *Maaten et al., JMLR 2008* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Visualizing%20Data%20using%20t-SNE)
 
 * [VoxelNet End-to-End Learning for Point Cloud Based 3D Object Detection](https://arxiv.org/pdf/1711.06396), *Zhou et al., arXiv 2017* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/VoxelNet%20End-to-End%20Learning%20for%20Point%20Cloud%20Based%203D%20Object%20Detection)
+
+* [Segmental audio word2vec: Representing utterances as sequences of vectors with applications in spoken term detection](https://arxiv.org/pdf/1804.00316.pdf), *Liu et al., arXiv 2018* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Completely%20Unsupervised%20Phoneme%20Recognition%20by%20Adversarially%20Learning%20Mapping)
