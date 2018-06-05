@@ -30,6 +30,18 @@ where <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Ar
 
 **Geometrical interpretation of the proposed method:**<br>
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/ArcFace%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition/images/f5.png" width=420>
+## Experiments
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/ArcFace%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition/images/f7.png" width=420>
+We can find that:
+
+1. Compared to Softmax, SphereFace, CosineFace and ArcFace improve the performance obviously.
+2. CosineFace and ArcFace obviously outperform SphereFace with much easier implementation.
+<br>
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/ArcFace%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition/images/f6.png">
+From table 8, the performance gaps between these large networks, e.g. ResNet-100, Inception-Resnet-V2, DenseNet, DPN and SE-Resnet-100, are relatively small. Based on the trade-off between accuracy, speed and model size, the author choose LResNet100E-IR to conduct experiments on the Megaface challenge.
+
+
+
 ## Reference
 [[1]](https://arxiv.org/pdf/1801.07698.pdf) ArcFace: Additive Angular Margin Loss for Deep Face Recognition.<br>
 [[2]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_SphereFace_Deep_Hypersphere_CVPR_2017_paper.pdf) Sphereface: Deep hypersphere embedding for face recognition.<br>
