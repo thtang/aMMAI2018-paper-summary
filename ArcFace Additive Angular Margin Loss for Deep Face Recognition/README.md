@@ -1,5 +1,5 @@
 # Week12 summarization
-### ArcFace: Additive Angular Margin Loss for Deep Face Recognition[[1]](https://arxiv.org/pdf/1801.07698.pdf)
+### ArcFace: Additive Angular Margin Loss for Deep Face Recognition [[1]](https://arxiv.org/pdf/1801.07698.pdf)
 *Jiankang Deng, Jia Guo, Stefanos Zafeiriou, arXiv 2018*
 
 ## Goal
