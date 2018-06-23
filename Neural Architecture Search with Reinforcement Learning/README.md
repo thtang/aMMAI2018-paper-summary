@@ -29,4 +29,5 @@ The proposed framework is shown in above figure. The network searching procedure
 
 ## Experiments
 <img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Neural%20Architecture%20Search%20with%20Reinforcement%20Learning/images/t1.png" width=620>
-800 GPUs are used for network searching. From the above table, comparable results on CIFAR-10 are reported.
+800 GPUs are used for network searching. From the above table, comparable results on CIFAR-10 are reported. An automatically generated network architecture is shown below:
+<img src="https://github.com/thtang/aMMAI2018-paper-summary/blob/master/Neural%20Architecture%20Search%20with%20Reinforcement%20Learning/images/a1.jpg" width=620>
