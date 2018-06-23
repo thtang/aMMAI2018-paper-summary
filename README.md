@@ -23,3 +23,5 @@ course web site: https://winstonhsu.info/ammai-18s/
 * [Segmental audio word2vec: Representing utterances as sequences of vectors with applications in spoken term detection](https://arxiv.org/pdf/1804.00316.pdf), *Liu et al., arXiv 2018* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Completely%20Unsupervised%20Phoneme%20Recognition%20by%20Adversarially%20Learning%20Mapping)
 
 * [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698), *Deng et al., arXiv 2018* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/ArcFace%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition)
+
+* [Neural Architecture Search with Reinforcement Learning](https://arxiv.org/pdf/1611.01578.pdf), *Zoph∗ et al., ICLR 2017*
