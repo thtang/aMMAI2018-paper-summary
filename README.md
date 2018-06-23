@@ -24,4 +24,4 @@ course web site: https://winstonhsu.info/ammai-18s/
 
 * [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698), *Deng et al., arXiv 2018* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/ArcFace%20Additive%20Angular%20Margin%20Loss%20for%20Deep%20Face%20Recognition)
 
-* [Neural Architecture Search with Reinforcement Learning](https://arxiv.org/pdf/1611.01578.pdf), *Zoph∗ et al., ICLR 2017*
+* [Neural Architecture Search with Reinforcement Learning](https://arxiv.org/pdf/1611.01578.pdf), *Zoph et al., ICLR 2017* [[summary]](https://github.com/thtang/aMMAI2018-paper-summary/tree/master/Neural%20Architecture%20Search%20with%20Reinforcement%20Learning)
